@@ -27,7 +27,7 @@ rc<-(V^X)*exp(X*(1-V)) #temperature dependent proportional adjustment (0 to 1) o
 
 P<-0.7 #proportionality constant from 0 to 1, used to adjust the ration when fitting an observed growth curve - user input <---------------
 
-C<-Cmax*rc*P #consumption rate 
+C<-Cmax*rc*P #consumption rate - could think of a different way to model consumption rates perhaps
 
 #Respiration - equation from Rice et al 1983 doesn't make sense, so used the equation from 
 #R = Rmax * A * rR + SC
